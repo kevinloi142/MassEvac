@@ -5,6 +5,8 @@ const { ZonedDateTime, ZoneId } = require('@js-joda/core');
 require('@js-joda/timezone');
 const key = 'IixDo0rkv3xMZQTGgCpnzcGsW2kldjAe';
 
+const outputDir = './output';
+
 const getDate = () => {
     const zdt = ZonedDateTime.now(ZoneId.of('America/Los_Angeles'));
     const year = zdt.year().toString().padStart(2, '0');
