@@ -105,6 +105,27 @@ const getAllStreets = async (date) => {
     };
 };
 
+function jsonToCsv(jsonData) {
+  const rows = [];
+  const date = jsonData.date;
+  const headers = ['date', 'street', 'lat', 'lng', 'currentSpeed', 'freeFlowSpeed', 'confidence', 'roadClosure'];
+  rows.push(headers.join(','));
+
+  for (const street in jsonData) {
+    if (street === 'date') continue;
+    jsonData[street].forEach(point => {
+      const lat = point.point.lat;
+      const lng = point.point.lng;
+      const currentSpeed = point.currentSpeed || '';
+      const freeFlowSpeed = point.freeFlowSpeed || '';
+      const confidence = point.confidence || '';
+      const roadClosure = point.roadClosure || false;
+      const row = [date, street, lat, lng, currentSpeed, freeFlowSpeed, confidence, roadClosure];
+      rows.push(row.join(','));
+    });
+  }
+  return rows.join('\n');
+}
 
 (async () => {
     const date = getDate();
