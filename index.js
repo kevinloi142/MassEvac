@@ -108,7 +108,7 @@ const getAllStreets = async (date) => {
 
 (async () => {
     const date = getDate();
-    const path = '/root/TomTomScript/output';
+    const path = './output';
 
     writeFileSync(
 	`${path}/${date}.json`,
