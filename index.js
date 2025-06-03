@@ -128,11 +128,15 @@ function jsonToCsv(jsonData) {
 }
 
 (async () => {
-    const date = getDate();
-    const path = './output';
+  const date = getDate();
+  const jsonPath = path.join(outputDir, `${date}.json`);
+  const csvPath = path.join(outputDir, `${date}.csv`);
 
-    writeFileSync(
-	`${path}/${date}.json`,
-	JSON.stringify(await getAllStreets(date))
-    );
+  const data = await getAllStreets(date);
+  fs.writeFileSync(jsonPath, JSON.stringify(data, null, 2));
+  console.log('Saved JSON:', jsonPath);
+
+  const csvData = jsonToCsv(data);
+  fs.writeFileSync(csvPath, csvData);
+  console.log('Saved CSV:', csvPath);
 })();
