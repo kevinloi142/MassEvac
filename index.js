@@ -1,5 +1,6 @@
 const axios = require('axios');
 const { writeFileSync } = require('fs');
+const fs = require('fs');
 const path = require('path');
 const { ZonedDateTime, ZoneId } = require('@js-joda/core');
 require('@js-joda/timezone');
