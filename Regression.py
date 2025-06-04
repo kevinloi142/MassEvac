@@ -74,7 +74,6 @@ def main():
             continue
 
         try:
-            X, y = preprocess(df)
             model = update_model(model, X, y)
             evaluate(model, X, y)
             save_processed_file(file['name'])
