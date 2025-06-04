@@ -9,7 +9,7 @@ from sklearn.metrics import mean_absolute_error
 
 OWNER = 'kevinloi142'
 REPO = 'MassEvac'
-FOLDER = 'outputs'
+FOLDER = 'output'
 MODEL_PATH = 'model.pkl'
 PROCESSED_FILES_PATH = 'processed_files.txt'
 
