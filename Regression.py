@@ -74,6 +74,11 @@ def main():
             continue
 
         try:
+            df['date'] = pd.to_datetime(df['date'])
+            df['hour'] = df['date'].dt.hour
+            
+            X = df.drop(columns=['date', 'currentSpeed', 'roadClosure'])
+            y = df['currentSpeed']
             model = update_model(model, X, y)
             evaluate(model, X, y)
             save_processed_file(file['name'])
