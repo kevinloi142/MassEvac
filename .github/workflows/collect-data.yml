@@ -3,7 +3,7 @@ name: Collect TomTom Data
 on:
   schedule:
     - cron: '*/30 * * * *'  # Every 30 minutes
-  workflow_dispatch:        # Manual trigger
+  workflow_dispatch:        # Allows manual trigger
 
 jobs:
   run-script:
@@ -19,18 +19,15 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install
 
       - name: Run script
-        run: |
-          echo "Running at $(date)"
-          node index.js
+        run: node index.js
 
       - name: Commit output
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git pull --rebase
           git add output/
           git commit -m "Add new traffic data [skip ci]" || echo "No changes to commit"
           git push
