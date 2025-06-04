@@ -76,8 +76,9 @@ def main():
         try:
             df['date'] = pd.to_datetime(df['date'])
             df['hour'] = df['date'].dt.hour
-            
-            X = df.drop(columns=['date', 'currentSpeed', 'roadClosure'])
+
+            labels = ['hour', 'lat', 'lng', 'freeFlowSpeed']
+            X = df[labels]
             y = df['currentSpeed']
             model = update_model(model, X, y)
             evaluate(model, X, y)
