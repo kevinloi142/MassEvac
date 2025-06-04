@@ -53,6 +53,8 @@ def evaluate(model, X, y):
     preds = model.predict(X)
     mae = mean_absolute_error(y, preds)
     print(f'MAE: {mae:.2f}')
+    print('First 5 predictions:', preds[:5])
+    print('First 5 actual values:', y.iloc[:5].values)
 
 def main():
     processed = load_processed_files()
