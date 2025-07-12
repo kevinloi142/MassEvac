@@ -112,14 +112,6 @@ const getAllStreets = async (date) => {
 	    await getData(34.153725, -118.150535),
             await getData(34.152485, -118.150454),
         ],
-        WoodburyRd: [
-            await getData(34.183149, -118.167973),
-            await getData(34.182901, -118.159250),
-            await getData(34.183252, -118.150292),
-            await getData(34.181974, -118.143168),
-            await getData(34.179293, -118.137149),
-            await getData(34.177004, -118.132053),
-        ],
         LincolnAve: [
             await getData(34.201603, -118.159143),
             await getData(34.197335, -118.158947),
