@@ -1,5 +1,5 @@
 const axios = require('axios');
-const { writeFileSync } = require('fs');
+const { writeFileSync, readFileSync, existsSync, mkdirSync } = require('fs');
 const { ZonedDateTime, ZoneId } = require('@js-joda/core');
 require('@js-joda/timezone');
 const key = 'IixDo0rkv3xMZQTGgCpnzcGsW2kldjAe';
@@ -356,11 +356,22 @@ const getAllStreets = async (date) => {
 
 
 (async () => {
-    const date = getDate();
-    const path = '/root/TomTomScript/output';
+    if (!existsSync(outputDir)) mkdirSync(outputDir, { recursive: true });
 
-    writeFileSync(
-	`${path}/${date}.json`,
-	JSON.stringify(await getAllStreets(date))
-    );
+    const date = getDate();
+    const newEntry = await getAllStreets(date);
+    const updatedArray = [];
+
+    if (existsSync(outputFile)) {
+        try {
+            const existing = JSON.parse(readFileSync(outputFile, 'utf-8'));
+            if (Array.isArray(existing)) updatedArray.push(...existing);
+        } catch (e) {
+            console.warn('Warning: Failed to read existing file, starting fresh.');
+        }
+    }
+
+    updatedArray.push(newEntry);
+
+    writeFileSync(outputFile, JSON.stringify(updatedArray, null, 2));
 })();
