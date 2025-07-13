@@ -19,7 +19,7 @@ const getDate = () => {
 
 const getData = async (lat, lng) => {
     const url = 'https://api.tomtom.com/traffic/services/4/flowSegmentData/absolute';
-    const zoom = 20;
+    const zoom = 15;
 
     const { data } = await axios({
         method: 'get',
