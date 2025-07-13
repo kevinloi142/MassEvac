@@ -24,7 +24,7 @@ jobs:
       - name: Run script
         run: node index.js
 
-    - name: Commit output
+      - name: Commit output
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
