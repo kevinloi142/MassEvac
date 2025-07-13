@@ -357,23 +357,23 @@ const getAllStreets = async (date) => {
 };
 
 
-(async () => {
-    if (!existsSync(outputDir)) mkdirSync(outputDir, { recursive: true });
+//(async () => {
+//   if (!existsSync(outputDir)) mkdirSync(outputDir, { recursive: true });
 
-    const date = getDate();
-    const newEntry = await getAllStreets(date);
-    const updatedArray = [];
+//    const date = getDate();
+//    const newEntry = await getAllStreets(date);
+//    const updatedArray = [];
 
-    if (existsSync(outputFile)) {
-        try {
-            const existing = JSON.parse(readFileSync(outputFile, 'utf-8'));
-            if (Array.isArray(existing)) updatedArray.push(...existing);
-        } catch (e) {
-            console.warn('Warning: Failed to read existing file, starting fresh.');
-        }
-    }
+//    if (existsSync(outputFile)) {
+//        try {
+//            const existing = JSON.parse(readFileSync(outputFile, 'utf-8'));
+//            if (Array.isArray(existing)) updatedArray.push(...existing);
+//        } catch (e) {
+//            console.warn('Warning: Failed to read existing file, starting fresh.');
+//        }
+//    }
 
-    updatedArray.push(newEntry);
+//    updatedArray.push(newEntry);
 
-    writeFileSync(outputFile, JSON.stringify(updatedArray, null, 2));
-})();
+//    writeFileSync(outputFile, JSON.stringify(updatedArray, null, 2));
+//})();
