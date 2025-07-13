@@ -24,10 +24,12 @@ jobs:
       - name: Run script
         run: node index.js
 
-      - name: Commit output
+    - name: Commit output
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add output/
           git commit -m "Add new traffic data [skip ci]" || echo "No changes to commit"
-          git push
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:${{ github.ref }}
