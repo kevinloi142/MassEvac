@@ -27,7 +27,7 @@ const getData = async (lat, lng) => {
         params: {
             key,
             point: `${lat},${lng}`,
-            unit: 'MPH'
+            unit: 'mph'
         }
     });
 
