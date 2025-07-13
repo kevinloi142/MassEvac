@@ -32,4 +32,4 @@ jobs:
           git config user.email "github-actions@github.com"
           git add output/
           git commit -m "Add new traffic data [skip ci]" || echo "No changes to commit"
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:${{ github.ref }}
+          git push
