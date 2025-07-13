@@ -18,7 +18,7 @@ const getDate = () => {
 };
 
 const getData = async (lat, lng) => {
-    const url = 'https://api.tomtom.com/traffic/services/4/flowSegmentData/absolute';
+    const url = 'https://api.tomtom.com/traffic/services/4/flowSegmentData/absolute/20/json?key=IixDo0rkv3xMZQTGgCpnzcGsW2kldjAe&point=34.202771,-118.142484&unit=MPH';
     const zoom = 20;
 
     const { data } = await axios({
@@ -27,7 +27,7 @@ const getData = async (lat, lng) => {
         params: {
             key,
             point: `${lat},${lng}`,
-            unit: 'mph'
+            unit: 'MPH'
         }
     });
 
