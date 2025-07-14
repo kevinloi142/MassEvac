@@ -371,10 +371,10 @@ async function fetchAllAndWriteCSV(allData) {
   const allPoints = [];
 
   for (const street in allData) {
-    if (street === 'date') continue; // skip date key
+    // allData[street] is an array of data points
     for (const pointData of allData[street]) {
       allPoints.push({
-        date: allData.date,
+        street: street,        // Add street name here
         lat: pointData.point.lat,
         lng: pointData.point.lng,
         currentSpeed: pointData.currentSpeed,
@@ -387,7 +387,7 @@ async function fetchAllAndWriteCSV(allData) {
   const csvWriter = createCsvWriter({
     path: './output/data.csv',
     header: [
-      { id: 'date', title: 'date' },
+      { id: 'street', title: 'street' },  // Include street in header
       { id: 'lat', title: 'lat' },
       { id: 'lng', title: 'lng' },
       { id: 'currentSpeed', title: 'currentSpeed' },
@@ -397,7 +397,7 @@ async function fetchAllAndWriteCSV(allData) {
   });
 
   await csvWriter.writeRecords(allPoints);
-  console.log('CSV written without street info!');
+  console.log('CSV file written with street names!');
 }
 
 
