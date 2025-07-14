@@ -1,0 +1,47 @@
+name: Test TomTom API Key
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18
+
+    - name: Install dependencies
+      run: npm install axios
+
+    - name: Run test
+      run: |
+        node <<'EOF'
+        const axios = require('axios');
+
+        const key = 'IixDo0rkv3xMZQTGgCpnzcGsW2kldjAe';
+        const url = 'https://api.tomtom.com/traffic/services/4/flowSegmentData/absolute/15/json';
+        const point = '34.202035,-118.157053';
+
+        axios.get(url, {
+            params: {
+                key,
+                point,
+                unit: 'mph'
+            }
+        }).then(res => {
+            console.log('✅ API Key is working. Response:');
+            console.log(JSON.stringify(res.data, null, 2));
+        }).catch(err => {
+            if (err.response) {
+                console.error('❌ Error:', err.response.status);
+                console.error('Message:', err.response.data);
+            } else {
+                console.error('❌ Network error:', err.message);
+            }
+        });
+        EOF
