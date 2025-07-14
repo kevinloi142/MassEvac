@@ -5,6 +5,7 @@ require('@js-joda/timezone');
 const key = 'IixDo0rkv3xMZQTGgCpnzcGsW2kldjAe';
 const outputDir = './output';
 const outputFile = `${outputDir}/data.json`;
+const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 
 const getDate = () => {
     const zdt = ZonedDateTime.now(ZoneId.of('America/Los_Angeles'));
@@ -366,21 +367,22 @@ const getAllStreets = async (date) => {
     };
 };
 
-async function fetchAllAndWriteCSV() {
-  // Flatten all points into one array without street info
+async function fetchAllAndWriteCSV(allData) {
   const allPoints = [];
 
   for (const street in allData) {
-    // allData[street] is an array of promises that already awaited
-    // so here, each element is the actual data point
-
+    if (street === 'date') continue; // skip date key
     for (const pointData of allData[street]) {
-      // pointData should have lat, lng, currentSpeed, etc.
-      allPoints.push(pointData);
+      allPoints.push({
+        date: allData.date,
+        lat: pointData.point.lat,
+        lng: pointData.point.lng,
+        currentSpeed: pointData.currentSpeed,
+        freeFlowSpeed: pointData.freeFlowSpeed,
+        confidence: pointData.confidence
+      });
     }
   }
-
-  // Now write CSV with only needed fields, no street
 
   const csvWriter = createCsvWriter({
     path: './output/data.csv',
@@ -402,20 +404,22 @@ async function fetchAllAndWriteCSV() {
 (async () => {
    if (!existsSync(outputDir)) mkdirSync(outputDir, { recursive: true });
 
-    const date = getDate();
-    const newEntry = await getAllStreets(date);
-    const updatedArray = [];
+   const date = getDate();
+   const allData = await getAllStreets(date);
 
-    if (existsSync(outputFile)) {
-        try {
-            const existing = JSON.parse(readFileSync(outputFile, 'utf-8'));
-            if (Array.isArray(existing)) updatedArray.push(...existing);
-        } catch (e) {
-            console.warn('Warning: Failed to read existing file, starting fresh.');
-        }
-    }
+   const updatedArray = [];
 
-    updatedArray.push(newEntry);
+   if (existsSync(outputFile)) {
+       try {
+           const existing = JSON.parse(readFileSync(outputFile, 'utf-8'));
+           if (Array.isArray(existing)) updatedArray.push(...existing);
+       } catch (e) {
+           console.warn('Warning: Failed to read existing file, starting fresh.');
+       }
+   }
 
-    writeFileSync(outputFile, JSON.stringify(updatedArray, null, 2));
+   updatedArray.push(allData);
+   writeFileSync(outputFile, JSON.stringify(updatedArray, null, 2));
+
+   await fetchAllAndWriteCSV(allData);
 })();
