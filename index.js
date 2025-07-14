@@ -18,7 +18,7 @@ const getDate = () => {
 };
 
 const getData = async (lat, lng) => {
-    const url = 'https://api.tomtom.com/traffic/services/4/flowSegmentData/absolute/15/json';
+    const url = 'https://api.tomtom.com/traffic/services/4/flowSegmentData/absolute/10/json';
     const point = `${lat},${lng}`;
 
     console.log(`Fetching data for point: ${point}`);
