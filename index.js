@@ -370,29 +370,34 @@ const getAllStreets = async (date) => {
 async function fetchAllAndWriteCSV(allData) {
   const allPoints = [];
 
-for (const street in allData) {
-  // allData[street] is an array of data points
-  for (const pointData of allData[street]) {
-    if (!pointData.point || typeof pointData.point.lat !== 'number' || typeof pointData.point.lng !== 'number') {
-      console.warn(`Skipping invalid pointData for street "${street}":`, pointData);
-      continue; // skip invalid pointData entries
-    }
+  const date = allData.date; // ✅ Grab the timestamp
 
-    allPoints.push({
-      street: street,        // Add street name here
-      lat: pointData.point.lat,
-      lng: pointData.point.lng,
-      currentSpeed: pointData.currentSpeed,
-      freeFlowSpeed: pointData.freeFlowSpeed,
-      confidence: pointData.confidence
-    });
+  for (const street in allData) {
+    if (street === 'date') continue; // Skip the date field itself
+
+    for (const pointData of allData[street]) {
+      if (!pointData.point || typeof pointData.point.lat !== 'number' || typeof pointData.point.lng !== 'number') {
+        console.warn(`Skipping invalid pointData for street "${street}":`, pointData);
+        continue;
+      }
+
+      allPoints.push({
+        date, // ✅ Add timestamp
+        street,
+        lat: pointData.point.lat,
+        lng: pointData.point.lng,
+        currentSpeed: pointData.currentSpeed,
+        freeFlowSpeed: pointData.freeFlowSpeed,
+        confidence: pointData.confidence
+      });
+    }
   }
-}
 
   const csvWriter = createCsvWriter({
     path: './output/data.csv',
     header: [
-      { id: 'street', title: 'street' },  // Include street in header
+      { id: 'date', title: 'date' }, // ✅ Add date to CSV header
+      { id: 'street', title: 'street' },
       { id: 'lat', title: 'lat' },
       { id: 'lng', title: 'lng' },
       { id: 'currentSpeed', title: 'currentSpeed' },
@@ -402,7 +407,7 @@ for (const street in allData) {
   });
 
   await csvWriter.writeRecords(allPoints);
-  console.log('CSV file written with street names!');
+  console.log('CSV file written with street names and timestamp!');
 }
 
 
