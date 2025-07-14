@@ -370,19 +370,24 @@ const getAllStreets = async (date) => {
 async function fetchAllAndWriteCSV(allData) {
   const allPoints = [];
 
-  for (const street in allData) {
-    // allData[street] is an array of data points
-    for (const pointData of allData[street]) {
-      allPoints.push({
-        street: street,        // Add street name here
-        lat: pointData.point.lat,
-        lng: pointData.point.lng,
-        currentSpeed: pointData.currentSpeed,
-        freeFlowSpeed: pointData.freeFlowSpeed,
-        confidence: pointData.confidence
-      });
+for (const street in allData) {
+  // allData[street] is an array of data points
+  for (const pointData of allData[street]) {
+    if (!pointData.point || typeof pointData.point.lat !== 'number' || typeof pointData.point.lng !== 'number') {
+      console.warn(`Skipping invalid pointData for street "${street}":`, pointData);
+      continue; // skip invalid pointData entries
     }
+
+    allPoints.push({
+      street: street,        // Add street name here
+      lat: pointData.point.lat,
+      lng: pointData.point.lng,
+      currentSpeed: pointData.currentSpeed,
+      freeFlowSpeed: pointData.freeFlowSpeed,
+      confidence: pointData.confidence
+    });
   }
+}
 
   const csvWriter = createCsvWriter({
     path: './output/data.csv',
