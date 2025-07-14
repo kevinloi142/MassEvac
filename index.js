@@ -393,18 +393,19 @@ async function fetchAllAndWriteCSV(allData) {
     }
   }
 
-  const csvWriter = createCsvWriter({
-    path: './output/data.csv',
-    header: [
-      { id: 'date', title: 'date' }, // ✅ Add date to CSV header
-      { id: 'street', title: 'street' },
-      { id: 'lat', title: 'lat' },
-      { id: 'lng', title: 'lng' },
-      { id: 'currentSpeed', title: 'currentSpeed' },
-      { id: 'freeFlowSpeed', title: 'freeFlowSpeed' },
-      { id: 'confidence', title: 'confidence' }
-    ]
-  });
+const csvWriter = createCsvWriter({
+  path: './output/data.csv',
+  header: [
+    { id: 'date', title: 'date' },
+    { id: 'street', title: 'street' },
+    { id: 'lat', title: 'lat' },
+    { id: 'lng', title: 'lng' },
+    { id: 'currentSpeed', title: 'currentSpeed' },
+    { id: 'freeFlowSpeed', title: 'freeFlowSpeed' },
+    { id: 'confidence', title: 'confidence' }
+  ],
+  append: true  // 👈 Important: this tells it to append instead of overwrite
+});
 
   await csvWriter.writeRecords(allPoints);
   console.log('CSV file written with street names and timestamp!');
