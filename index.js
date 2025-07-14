@@ -366,6 +366,38 @@ const getAllStreets = async (date) => {
     };
 };
 
+async function fetchAllAndWriteCSV() {
+  // Flatten all points into one array without street info
+  const allPoints = [];
+
+  for (const street in allData) {
+    // allData[street] is an array of promises that already awaited
+    // so here, each element is the actual data point
+
+    for (const pointData of allData[street]) {
+      // pointData should have lat, lng, currentSpeed, etc.
+      allPoints.push(pointData);
+    }
+  }
+
+  // Now write CSV with only needed fields, no street
+
+  const csvWriter = createCsvWriter({
+    path: './output/data.csv',
+    header: [
+      { id: 'date', title: 'date' },
+      { id: 'lat', title: 'lat' },
+      { id: 'lng', title: 'lng' },
+      { id: 'currentSpeed', title: 'currentSpeed' },
+      { id: 'freeFlowSpeed', title: 'freeFlowSpeed' },
+      { id: 'confidence', title: 'confidence' }
+    ]
+  });
+
+  await csvWriter.writeRecords(allPoints);
+  console.log('CSV written without street info!');
+}
+
 
 (async () => {
    if (!existsSync(outputDir)) mkdirSync(outputDir, { recursive: true });
