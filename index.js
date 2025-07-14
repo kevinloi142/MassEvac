@@ -18,25 +18,35 @@ const getDate = () => {
 };
 
 const getData = async (lat, lng) => {
-    const url = 'https://api.tomtom.com/traffic/services/4/flowSegmentData/absolute';
-    const zoom = 15;
+    const url = 'https://api.tomtom.com/traffic/services/4/flowSegmentData/absolute/15/json';
+    const point = `${lat},${lng}`;
 
-    const { data } = await axios({
-        method: 'get',
-        url: `${url}/${zoom}/json`,
-        params: {
-            key,
-            point: `${lat},${lng}`,
-            unit: 'mph'
+    console.log(`Fetching data for point: ${point}`);
+
+    try {
+        const { data } = await axios.get(url, {
+            params: {
+                key,
+                point,
+                unit: 'mph'
+            }
+        });
+
+        data.flowSegmentData.point = { lat, lng };
+        delete data.flowSegmentData.coordinates;
+        delete data.flowSegmentData['@version'];
+
+        return data.flowSegmentData;
+    } catch (error) {
+        console.error(`❌ Error for point ${point}:`);
+        if (error.response) {
+            console.error('Status:', error.response.status);
+            console.error('Response:', error.response.data);
+        } else {
+            console.error('Error:', error.message);
         }
-    });
-
-    data.flowSegmentData.point = { lat, lng };
-
-    delete data.flowSegmentData.coordinates;
-    delete data.flowSegmentData['@version'];
-
-    return data.flowSegmentData;
+        throw error;
+    }
 };
 
 const getAllStreets = async (date) => {
