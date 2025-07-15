@@ -2,7 +2,7 @@ name: Collect TomTom Data
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  # Every 30 minutes
+    - cron: '*/60 * * * *'  # Every 60 minutes
   workflow_dispatch:        # Allows manual trigger
 
 jobs:
