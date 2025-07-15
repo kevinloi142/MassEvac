@@ -388,7 +388,14 @@ async function fetchAllAndWriteCSV(allData) {
         lng: pointData.point.lng,
         currentSpeed: pointData.currentSpeed,
         freeFlowSpeed: pointData.freeFlowSpeed,
-        confidence: pointData.confidence
+        confidence: pointData.confidence,
+	frc: pointData.frc,
+	jamFactor: pointData.jamFactor,
+	roadClosure: pointData.roadClosure,
+	travelTime: pointData.travelTime,
+	freeFlowTravelTime: pointData.freeFlowTravelTime,
+	length: pointData.length,
+	speedLimit: pointData.speedLimit
       });
     }
   }
@@ -402,9 +409,16 @@ const csvWriter = createCsvWriter({
     { id: 'lng', title: 'lng' },
     { id: 'currentSpeed', title: 'currentSpeed' },
     { id: 'freeFlowSpeed', title: 'freeFlowSpeed' },
-    { id: 'confidence', title: 'confidence' }
+    { id: 'confidence', title: 'confidence' },
+    { id: 'jamFactor', title: 'jamFactor' },
+    { id: 'frc', title: 'frc' },
+    { id: 'roadClosure', title: 'roadClosure' },
+    { id: 'travelTime', title: 'travelTime' },
+    { id: 'freeFlowTravelTime', title: 'freeFlowTravelTime' },
+    { id: 'length', title: 'length' },
+    { id: 'speedLimit', title: 'speedLimit' }
   ],
-  append: true  // 👈 Important: this tells it to append instead of overwrite
+  append: true  
 });
 
   await csvWriter.writeRecords(allPoints);
