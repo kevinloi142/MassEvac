@@ -2,8 +2,8 @@ name: Collect TomTom Data
 
 on:
   schedule:
-    - cron: '*/60 * * * *'  # Every 60 minutes
-  workflow_dispatch:        # Allows manual trigger
+    - cron: '*/90 * * * *'  # Every 90 minutes
+  workflow_dispatch:        # Allow manual runs
 
 jobs:
   run-script:
@@ -21,10 +21,14 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Check index.js content
-        run: head -20 index.js
+      - name: Wait random time within 90 minutes window
+        run: |
+          MAX_SLEEP=$((90 * 60))   # 90 minutes in seconds
+          SLEEP_TIME=$((RANDOM % MAX_SLEEP))
+          echo "Sleeping for $SLEEP_TIME seconds"
+          sleep $SLEEP_TIME
 
-      - name: Run script
+      - name: Run data collection script
         run: node index.js
 
       - name: Commit output
