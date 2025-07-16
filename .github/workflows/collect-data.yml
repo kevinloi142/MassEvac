@@ -39,4 +39,4 @@ jobs:
           git config user.email "github-actions@github.com"
           git add output/
           git commit -m "Add new traffic data [skip ci]" || echo "No changes to commit"
-          git push
+          git push --force origin main
