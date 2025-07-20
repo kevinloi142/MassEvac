@@ -106531,5 +106531,1696 @@
         }
       }
     ]
+  },
+  {
+    "date": "2025-07-19T22:52",
+    "LomaAltaDr": [
+      {
+        "frc": "FRC0",
+        "currentSpeed": 74,
+        "freeFlowSpeed": 74,
+        "currentTravelTime": 48,
+        "freeFlowTravelTime": 48,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.202035,
+          "lng": -118.157053
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 29,
+        "freeFlowSpeed": 29,
+        "currentTravelTime": 89,
+        "freeFlowTravelTime": 89,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.202994,
+          "lng": -118.143964
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 24,
+        "freeFlowSpeed": 24,
+        "currentTravelTime": 39,
+        "freeFlowTravelTime": 39,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.0256252,
+          "lng": -118.4778303
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 32,
+        "freeFlowSpeed": 32,
+        "currentTravelTime": 110,
+        "freeFlowTravelTime": 110,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.204035,
+          "lng": -118.131142
+        }
+      }
+    ],
+    "ApelloSt": [
+      {
+        "frc": "FRC4",
+        "currentSpeed": 32,
+        "freeFlowSpeed": 32,
+        "currentTravelTime": 110,
+        "freeFlowTravelTime": 110,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.202771,
+          "lng": -118.142484
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 32,
+        "freeFlowSpeed": 32,
+        "currentTravelTime": 110,
+        "freeFlowTravelTime": 110,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.199778,
+          "lng": -118.135975
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 32,
+        "freeFlowSpeed": 32,
+        "currentTravelTime": 110,
+        "freeFlowTravelTime": 110,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.198409,
+          "lng": -118.132445
+        }
+      }
+    ],
+    "LakeAve": [
+      {
+        "frc": "FRC4",
+        "currentSpeed": 31,
+        "freeFlowSpeed": 31,
+        "currentTravelTime": 125,
+        "freeFlowTravelTime": 125,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.203904,
+          "lng": -118.130668
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 31,
+        "freeFlowSpeed": 31,
+        "currentTravelTime": 125,
+        "freeFlowTravelTime": 125,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.196838,
+          "lng": -118.13106
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 31,
+        "freeFlowSpeed": 31,
+        "currentTravelTime": 93,
+        "freeFlowTravelTime": 93,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.189973,
+          "lng": -118.131318
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 31,
+        "freeFlowSpeed": 31,
+        "currentTravelTime": 93,
+        "freeFlowTravelTime": 93,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.181363,
+          "lng": -118.131715
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 34,
+        "freeFlowSpeed": 34,
+        "currentTravelTime": 70,
+        "freeFlowTravelTime": 70,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.171055,
+          "lng": -118.132151
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 25,
+        "freeFlowSpeed": 25,
+        "currentTravelTime": 177,
+        "freeFlowTravelTime": 177,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.164749,
+          "lng": -118.132457
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 25,
+        "freeFlowSpeed": 25,
+        "currentTravelTime": 177,
+        "freeFlowTravelTime": 177,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.155456,
+          "lng": -118.132443
+        }
+      }
+    ],
+    "AltadenaDr": [
+      {
+        "frc": "FRC0",
+        "currentSpeed": 71,
+        "freeFlowSpeed": 71,
+        "currentTravelTime": 51,
+        "freeFlowTravelTime": 51,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.199913,
+          "lng": -118.164083
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 32,
+        "freeFlowSpeed": 32,
+        "currentTravelTime": 110,
+        "freeFlowTravelTime": 110,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.191551,
+          "lng": -118.137963
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 35,
+        "freeFlowSpeed": 35,
+        "currentTravelTime": 160,
+        "freeFlowTravelTime": 160,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.182547,
+          "lng": -118.100383
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 35,
+        "freeFlowSpeed": 35,
+        "currentTravelTime": 159,
+        "freeFlowTravelTime": 159,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.177749,
+          "lng": -118.099154
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 28,
+        "freeFlowSpeed": 28,
+        "currentTravelTime": 96,
+        "freeFlowTravelTime": 96,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.168722,
+          "lng": -118.098299
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 32,
+        "freeFlowSpeed": 32,
+        "currentTravelTime": 83,
+        "freeFlowTravelTime": 83,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.160898,
+          "lng": -118.098461
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 25,
+        "freeFlowSpeed": 25,
+        "currentTravelTime": 35,
+        "freeFlowTravelTime": 35,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.153143,
+          "lng": -118.098742
+        }
+      }
+    ],
+    "FairOaksAve": [
+      {
+        "frc": "FRC4",
+        "currentSpeed": 29,
+        "freeFlowSpeed": 29,
+        "currentTravelTime": 89,
+        "freeFlowTravelTime": 89,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.206195,
+          "lng": -118.141877
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 29,
+        "freeFlowSpeed": 29,
+        "currentTravelTime": 89,
+        "freeFlowTravelTime": 89,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.196745,
+          "lng": -118.146383
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 31,
+        "freeFlowSpeed": 31,
+        "currentTravelTime": 114,
+        "freeFlowTravelTime": 114,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.181153,
+          "lng": -118.1508
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 31,
+        "freeFlowSpeed": 31,
+        "currentTravelTime": 114,
+        "freeFlowTravelTime": 114,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.170161,
+          "lng": -118.150691
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 29,
+        "freeFlowSpeed": 29,
+        "currentTravelTime": 62,
+        "freeFlowTravelTime": 62,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.16498,
+          "lng": -118.150635
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 23,
+        "freeFlowSpeed": 23,
+        "currentTravelTime": 80,
+        "freeFlowTravelTime": 80,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.152485,
+          "lng": -118.150454
+        }
+      }
+    ],
+    "LincolnAve": [
+      {
+        "frc": "FRC0",
+        "currentSpeed": 74,
+        "freeFlowSpeed": 74,
+        "currentTravelTime": 48,
+        "freeFlowTravelTime": 48,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.201603,
+          "lng": -118.159143
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 27,
+        "freeFlowSpeed": 34,
+        "currentTravelTime": 66,
+        "freeFlowTravelTime": 52,
+        "confidence": 0.98,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.191355,
+          "lng": -118.158701
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 29,
+        "freeFlowSpeed": 29,
+        "currentTravelTime": 81,
+        "freeFlowTravelTime": 81,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.175308,
+          "lng": -118.159695
+        }
+      }
+    ],
+    "HollistronAve": [
+      {
+        "frc": "FRC4",
+        "currentSpeed": 31,
+        "freeFlowSpeed": 31,
+        "currentTravelTime": 125,
+        "freeFlowTravelTime": 125,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.193289,
+          "lng": -118.123295
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 31,
+        "freeFlowSpeed": 31,
+        "currentTravelTime": 125,
+        "freeFlowTravelTime": 125,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.185521,
+          "lng": -118.123242
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 21,
+        "freeFlowSpeed": 28,
+        "currentTravelTime": 104,
+        "freeFlowTravelTime": 78,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.173189,
+          "lng": -118.123174
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 29,
+        "freeFlowSpeed": 29,
+        "currentTravelTime": 150,
+        "freeFlowTravelTime": 150,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.161072,
+          "lng": -118.123086
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 29,
+        "freeFlowSpeed": 29,
+        "currentTravelTime": 150,
+        "freeFlowTravelTime": 150,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.155662,
+          "lng": -118.122973
+        }
+      }
+    ],
+    "SinaloaAve": [
+      {
+        "frc": "FRC4",
+        "currentSpeed": 31,
+        "freeFlowSpeed": 31,
+        "currentTravelTime": 125,
+        "freeFlowTravelTime": 125,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.194027,
+          "lng": -118.117184
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 31,
+        "freeFlowSpeed": 31,
+        "currentTravelTime": 125,
+        "freeFlowTravelTime": 125,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.181686,
+          "lng": -118.115545
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 24,
+        "freeFlowSpeed": 24,
+        "currentTravelTime": 72,
+        "freeFlowTravelTime": 72,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.174578,
+          "lng": -118.115856
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 24,
+        "freeFlowSpeed": 24,
+        "currentTravelTime": 76,
+        "freeFlowTravelTime": 76,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.165282,
+          "lng": -118.115631
+        }
+      },
+      {
+        "frc": "FRC0",
+        "currentSpeed": 68,
+        "freeFlowSpeed": 68,
+        "currentTravelTime": 74,
+        "freeFlowTravelTime": 74,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.154542,
+          "lng": -118.115564
+        }
+      }
+    ],
+    "AllenAve": [
+      {
+        "frc": "FRC4",
+        "currentSpeed": 35,
+        "freeFlowSpeed": 35,
+        "currentTravelTime": 160,
+        "freeFlowTravelTime": 160,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.190519,
+          "lng": -118.112427
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 35,
+        "freeFlowSpeed": 35,
+        "currentTravelTime": 160,
+        "freeFlowTravelTime": 160,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.180286,
+          "lng": -118.111877
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 31,
+        "freeFlowSpeed": 31,
+        "currentTravelTime": 97,
+        "freeFlowTravelTime": 97,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.173165,
+          "lng": -118.112779
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 36,
+        "freeFlowSpeed": 36,
+        "currentTravelTime": 84,
+        "freeFlowTravelTime": 84,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.160195,
+          "lng": -118.113118
+        }
+      },
+      {
+        "frc": "FRC0",
+        "currentSpeed": 68,
+        "freeFlowSpeed": 68,
+        "currentTravelTime": 74,
+        "freeFlowTravelTime": 74,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.155208,
+          "lng": -118.113217
+        }
+      }
+    ],
+    "HillAve": [
+      {
+        "frc": "FRC4",
+        "currentSpeed": 31,
+        "freeFlowSpeed": 31,
+        "currentTravelTime": 125,
+        "freeFlowTravelTime": 125,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.183788,
+          "lng": -118.121668
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 24,
+        "freeFlowSpeed": 24,
+        "currentTravelTime": 72,
+        "freeFlowTravelTime": 72,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.175761,
+          "lng": -118.121576
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 29,
+        "freeFlowSpeed": 29,
+        "currentTravelTime": 141,
+        "freeFlowTravelTime": 141,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.168454,
+          "lng": -118.121513
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 18,
+        "freeFlowSpeed": 18,
+        "currentTravelTime": 95,
+        "freeFlowTravelTime": 95,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.152813,
+          "lng": -118.121315
+        }
+      }
+    ],
+    "LosRoblesAve": [
+      {
+        "frc": "FRC4",
+        "currentSpeed": 34,
+        "freeFlowSpeed": 34,
+        "currentTravelTime": 60,
+        "freeFlowTravelTime": 60,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.181199,
+          "lng": -118.141755
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 23,
+        "freeFlowSpeed": 23,
+        "currentTravelTime": 96,
+        "freeFlowTravelTime": 96,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.174834,
+          "lng": -118.141676
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 20,
+        "freeFlowSpeed": 24,
+        "currentTravelTime": 112,
+        "freeFlowTravelTime": 94,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.161375,
+          "lng": -118.141555
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 17,
+        "freeFlowSpeed": 23,
+        "currentTravelTime": 97,
+        "freeFlowTravelTime": 70,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.153849,
+          "lng": -118.14151
+        }
+      }
+    ],
+    "MentoneAve": [
+      {
+        "frc": "FRC4",
+        "currentSpeed": 27,
+        "freeFlowSpeed": 27,
+        "currentTravelTime": 72,
+        "freeFlowTravelTime": 72,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.180762,
+          "lng": -118.157419
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 35,
+        "freeFlowSpeed": 35,
+        "currentTravelTime": 25,
+        "freeFlowTravelTime": 25,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.171877,
+          "lng": -118.157255
+        }
+      },
+      {
+        "frc": "FRC0",
+        "currentSpeed": 69,
+        "freeFlowSpeed": 69,
+        "currentTravelTime": 35,
+        "freeFlowTravelTime": 35,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.165942,
+          "lng": -118.157484
+        }
+      }
+    ],
+    "WindsorAve": [
+      {
+        "frc": "FRC4",
+        "currentSpeed": 27,
+        "freeFlowSpeed": 34,
+        "currentTravelTime": 66,
+        "freeFlowTravelTime": 52,
+        "confidence": 0.98,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.193872,
+          "lng": -118.168259
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 43,
+        "freeFlowSpeed": 43,
+        "currentTravelTime": 21,
+        "freeFlowTravelTime": 21,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.188976,
+          "lng": -118.168631
+        }
+      },
+      {
+        "frc": "FRC5",
+        "currentSpeed": 29,
+        "freeFlowSpeed": 29,
+        "currentTravelTime": 104,
+        "freeFlowTravelTime": 104,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.181858,
+          "lng": -118.168961
+        }
+      }
+    ],
+    "WoodburyRd": [
+      {
+        "frc": "FRC4",
+        "currentSpeed": 23,
+        "freeFlowSpeed": 23,
+        "currentTravelTime": 96,
+        "freeFlowTravelTime": 96,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.177002,
+          "lng": -118.132052
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 30,
+        "freeFlowSpeed": 30,
+        "currentTravelTime": 67,
+        "freeFlowTravelTime": 67,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.181513,
+          "lng": -118.142028
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 27,
+        "freeFlowSpeed": 27,
+        "currentTravelTime": 66,
+        "freeFlowTravelTime": 66,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.183142,
+          "lng": -118.153076
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 31,
+        "freeFlowSpeed": 31,
+        "currentTravelTime": 59,
+        "freeFlowTravelTime": 59,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.183166,
+          "lng": -118.160464
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 35,
+        "freeFlowSpeed": 35,
+        "currentTravelTime": 83,
+        "freeFlowTravelTime": 83,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.185121,
+          "lng": -118.17533
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 30,
+        "freeFlowSpeed": 30,
+        "currentTravelTime": 41,
+        "freeFlowTravelTime": 41,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.189221,
+          "lng": -118.178381
+        }
+      }
+    ],
+    "FigueroaDr": [
+      {
+        "frc": "FRC4",
+        "currentSpeed": 30,
+        "freeFlowSpeed": 30,
+        "currentTravelTime": 99,
+        "freeFlowTravelTime": 99,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.187444,
+          "lng": -118.168473
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 21,
+        "freeFlowSpeed": 27,
+        "currentTravelTime": 97,
+        "freeFlowTravelTime": 75,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.187481,
+          "lng": -118.160666
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 31,
+        "freeFlowSpeed": 31,
+        "currentTravelTime": 94,
+        "freeFlowTravelTime": 94,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.185164,
+          "lng": -118.151112
+        }
+      }
+    ],
+    "MountainViewSt": [
+      {
+        "frc": "FRC4",
+        "currentSpeed": 30,
+        "freeFlowSpeed": 30,
+        "currentTravelTime": 41,
+        "freeFlowTravelTime": 41,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.192674,
+          "lng": -118.168296
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 21,
+        "freeFlowSpeed": 27,
+        "currentTravelTime": 97,
+        "freeFlowTravelTime": 75,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.191134,
+          "lng": -118.163421
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 31,
+        "freeFlowSpeed": 31,
+        "currentTravelTime": 65,
+        "freeFlowTravelTime": 65,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.18809,
+          "lng": -118.154039
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 31,
+        "freeFlowSpeed": 31,
+        "currentTravelTime": 94,
+        "freeFlowTravelTime": 94,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.187172,
+          "lng": -118.151104
+        }
+      }
+    ],
+    "HowardSt": [
+      {
+        "frc": "FRC4",
+        "currentSpeed": 28,
+        "freeFlowSpeed": 28,
+        "currentTravelTime": 14,
+        "freeFlowTravelTime": 14,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.17383,
+          "lng": -118.161227
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 35,
+        "freeFlowSpeed": 35,
+        "currentTravelTime": 25,
+        "freeFlowTravelTime": 25,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.173065,
+          "lng": -118.155545
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 28,
+        "freeFlowSpeed": 28,
+        "currentTravelTime": 128,
+        "freeFlowTravelTime": 128,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.172545,
+          "lng": -118.149284
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 23,
+        "freeFlowSpeed": 23,
+        "currentTravelTime": 96,
+        "freeFlowTravelTime": 96,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.17259,
+          "lng": -118.141871
+        }
+      }
+    ],
+    "WashingtonBlvd": [
+      {
+        "frc": "FRC4",
+        "currentSpeed": 30,
+        "freeFlowSpeed": 30,
+        "currentTravelTime": 62,
+        "freeFlowTravelTime": 62,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.169521,
+          "lng": -118.157429
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 28,
+        "freeFlowSpeed": 28,
+        "currentTravelTime": 128,
+        "freeFlowTravelTime": 128,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.168881,
+          "lng": -118.148462
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 25,
+        "freeFlowSpeed": 25,
+        "currentTravelTime": 177,
+        "freeFlowTravelTime": 177,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.168948,
+          "lng": -118.136669
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 21,
+        "freeFlowSpeed": 28,
+        "currentTravelTime": 104,
+        "freeFlowTravelTime": 78,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.169065,
+          "lng": -118.122065
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 24,
+        "freeFlowSpeed": 24,
+        "currentTravelTime": 72,
+        "freeFlowTravelTime": 72,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.169145,
+          "lng": -118.117107
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 31,
+        "freeFlowSpeed": 31,
+        "currentTravelTime": 97,
+        "freeFlowTravelTime": 97,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.169158,
+          "lng": -118.105425
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 30,
+        "freeFlowSpeed": 30,
+        "currentTravelTime": 99,
+        "freeFlowTravelTime": 99,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.166424,
+          "lng": -118.091656
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 32,
+        "freeFlowSpeed": 32,
+        "currentTravelTime": 80,
+        "freeFlowTravelTime": 80,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.157076,
+          "lng": -118.089369
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 47,
+        "freeFlowSpeed": 47,
+        "currentTravelTime": 16,
+        "freeFlowTravelTime": 16,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.152398,
+          "lng": -118.090416
+        }
+      }
+    ],
+    "MountainSt": [
+      {
+        "frc": "FRC0",
+        "currentSpeed": 69,
+        "freeFlowSpeed": 69,
+        "currentTravelTime": 35,
+        "freeFlowTravelTime": 35,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.162153,
+          "lng": -118.157209
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 15,
+        "freeFlowSpeed": 21,
+        "currentTravelTime": 125,
+        "freeFlowTravelTime": 88,
+        "confidence": 0.99,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.161547,
+          "lng": -118.141368
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 25,
+        "freeFlowSpeed": 25,
+        "currentTravelTime": 177,
+        "freeFlowTravelTime": 177,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.161608,
+          "lng": -118.133753
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 29,
+        "freeFlowSpeed": 29,
+        "currentTravelTime": 141,
+        "freeFlowTravelTime": 141,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.161686,
+          "lng": -118.12119
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 32,
+        "freeFlowSpeed": 32,
+        "currentTravelTime": 83,
+        "freeFlowTravelTime": 83,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.161565,
+          "lng": -118.099852
+        }
+      }
+    ],
+    "OrangeGroveBlvd": [
+      {
+        "frc": "FRC4",
+        "currentSpeed": 30,
+        "freeFlowSpeed": 30,
+        "currentTravelTime": 103,
+        "freeFlowTravelTime": 103,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.154604,
+          "lng": -118.156392
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 15,
+        "freeFlowSpeed": 21,
+        "currentTravelTime": 125,
+        "freeFlowTravelTime": 88,
+        "confidence": 0.99,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.157872,
+          "lng": -118.144529
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 25,
+        "freeFlowSpeed": 25,
+        "currentTravelTime": 74,
+        "freeFlowTravelTime": 74,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.157825,
+          "lng": -118.136663
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 29,
+        "freeFlowSpeed": 29,
+        "currentTravelTime": 78,
+        "freeFlowTravelTime": 78,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.157863,
+          "lng": -118.126706
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 31,
+        "freeFlowSpeed": 31,
+        "currentTravelTime": 54,
+        "freeFlowTravelTime": 54,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.157907,
+          "lng": -118.115417
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 36,
+        "freeFlowSpeed": 36,
+        "currentTravelTime": 84,
+        "freeFlowTravelTime": 84,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.158266,
+          "lng": -118.106132
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 30,
+        "freeFlowSpeed": 30,
+        "currentTravelTime": 85,
+        "freeFlowTravelTime": 85,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.158482,
+          "lng": -118.091753
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 25,
+        "freeFlowSpeed": 25,
+        "currentTravelTime": 102,
+        "freeFlowTravelTime": 102,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.157656,
+          "lng": -118.080973
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 25,
+        "freeFlowSpeed": 25,
+        "currentTravelTime": 102,
+        "freeFlowTravelTime": 102,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.15136,
+          "lng": -118.073794
+        }
+      }
+    ],
+    "VillaSt": [
+      {
+        "frc": "FRC0",
+        "currentSpeed": 62,
+        "freeFlowSpeed": 62,
+        "currentTravelTime": 61,
+        "freeFlowTravelTime": 61,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.152881,
+          "lng": -118.154008
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 23,
+        "freeFlowSpeed": 23,
+        "currentTravelTime": 80,
+        "freeFlowTravelTime": 80,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.154146,
+          "lng": -118.145817
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 25,
+        "freeFlowSpeed": 25,
+        "currentTravelTime": 71,
+        "freeFlowTravelTime": 71,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.154242,
+          "lng": -118.1368
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 47,
+        "freeFlowSpeed": 47,
+        "currentTravelTime": 18,
+        "freeFlowTravelTime": 18,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.154313,
+          "lng": -118.127657
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 29,
+        "freeFlowSpeed": 29,
+        "currentTravelTime": 141,
+        "freeFlowTravelTime": 141,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.154349,
+          "lng": -118.119739
+        }
+      },
+      {
+        "frc": "FRC0",
+        "currentSpeed": 68,
+        "freeFlowSpeed": 68,
+        "currentTravelTime": 74,
+        "freeFlowTravelTime": 74,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.154382,
+          "lng": -118.105957
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 24,
+        "freeFlowSpeed": 32,
+        "currentTravelTime": 108,
+        "freeFlowTravelTime": 79,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.1544,
+          "lng": -118.09385
+        }
+      },
+      {
+        "frc": "FRC0",
+        "currentSpeed": 67,
+        "freeFlowSpeed": 67,
+        "currentTravelTime": 46,
+        "freeFlowTravelTime": 46,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.15443,
+          "lng": -118.088692
+        }
+      }
+    ],
+    "NewYorkDr": [
+      {
+        "frc": "FRC4",
+        "currentSpeed": 25,
+        "freeFlowSpeed": 25,
+        "currentTravelTime": 92,
+        "freeFlowTravelTime": 92,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.179922,
+          "lng": -118.136365
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 21,
+        "freeFlowSpeed": 28,
+        "currentTravelTime": 104,
+        "freeFlowTravelTime": 78,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.178504,
+          "lng": -118.122736
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 31,
+        "freeFlowSpeed": 31,
+        "currentTravelTime": 97,
+        "freeFlowTravelTime": 97,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.178264,
+          "lng": -118.11152
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 35,
+        "freeFlowSpeed": 35,
+        "currentTravelTime": 160,
+        "freeFlowTravelTime": 160,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.174776,
+          "lng": -118.101448
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 40,
+        "freeFlowSpeed": 40,
+        "currentTravelTime": 122,
+        "freeFlowTravelTime": 122,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.172245,
+          "lng": -118.091787
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 22,
+        "freeFlowSpeed": 22,
+        "currentTravelTime": 176,
+        "freeFlowTravelTime": 176,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.161164,
+          "lng": -118.081102
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 24,
+        "freeFlowSpeed": 24,
+        "currentTravelTime": 148,
+        "freeFlowTravelTime": 148,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.148405,
+          "lng": -118.082354
+        }
+      }
+    ],
+    "MapleSt": [
+      {
+        "frc": "FRC4",
+        "currentSpeed": 19,
+        "freeFlowSpeed": 25,
+        "currentTravelTime": 191,
+        "freeFlowTravelTime": 148,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.150251,
+          "lng": -118.088146
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 38,
+        "freeFlowSpeed": 38,
+        "currentTravelTime": 17,
+        "freeFlowTravelTime": 17,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.152846,
+          "lng": -118.122305
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 25,
+        "freeFlowSpeed": 25,
+        "currentTravelTime": 71,
+        "freeFlowTravelTime": 71,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.152376,
+          "lng": -118.133096
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 23,
+        "freeFlowSpeed": 23,
+        "currentTravelTime": 80,
+        "freeFlowTravelTime": 80,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.152512,
+          "lng": -118.143151
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 26,
+        "freeFlowSpeed": 26,
+        "currentTravelTime": 60,
+        "freeFlowTravelTime": 60,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.152052,
+          "lng": -118.153604
+        }
+      }
+    ],
+    "HammondSt": [
+      {
+        "frc": "FRC0",
+        "currentSpeed": 70,
+        "freeFlowSpeed": 70,
+        "currentTravelTime": 48,
+        "freeFlowTravelTime": 48,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.165898,
+          "lng": -118.157675
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 15,
+        "freeFlowSpeed": 21,
+        "currentTravelTime": 125,
+        "freeFlowTravelTime": 88,
+        "confidence": 0.99,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.165162,
+          "lng": -118.145903
+        }
+      }
+    ],
+    "MarengoAve": [
+      {
+        "frc": "FRC4",
+        "currentSpeed": 32,
+        "freeFlowSpeed": 32,
+        "currentTravelTime": 110,
+        "freeFlowTravelTime": 110,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.203724,
+          "lng": -118.133396
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 32,
+        "freeFlowSpeed": 32,
+        "currentTravelTime": 111,
+        "freeFlowTravelTime": 111,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.192362,
+          "lng": -118.141413
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 28,
+        "freeFlowSpeed": 28,
+        "currentTravelTime": 128,
+        "freeFlowTravelTime": 128,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.173254,
+          "lng": -118.146169
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 29,
+        "freeFlowSpeed": 29,
+        "currentTravelTime": 62,
+        "freeFlowTravelTime": 62,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.163153,
+          "lng": -118.146099
+        }
+      },
+      {
+        "frc": "FRC4",
+        "currentSpeed": 23,
+        "freeFlowSpeed": 23,
+        "currentTravelTime": 80,
+        "freeFlowTravelTime": 80,
+        "confidence": 1,
+        "roadClosure": false,
+        "point": {
+          "lat": 34.152664,
+          "lng": -118.146102
+        }
+      }
+    ]
   }
 ]
